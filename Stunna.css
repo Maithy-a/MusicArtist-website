@@ -53,6 +53,7 @@ cursor: pointer;
     align-items:center;
     background: linear-gradient(120deg, #f1c07a,#e06908, #ff4500);
 }
+
 .card .content .Abt{
     text-transform:uppercase ;
     font-size: 8.0rem;
@@ -94,6 +95,7 @@ line-height: 1.5rem;
     display: flex;
     justify-content: flex-start;
     align-items:center;
+    cursor: pointer;
 }
 .album-card img{
     max-width: 270px;
@@ -130,5 +132,24 @@ line-height: 1.5rem;
 .album_list{
     display: flex;
     list-style: none;
+}
+#preview img{
+    width: 350px;
+    height: 200px;
+    border-radius: 20px;
+    transition:0.5s;
+    cursor: pointer;
+}
+#preview img:hover{
+    transform: scale(1.2);
+}
+.prev-images{
+    display: flex;
+    gap:2em;
+    padding: 20px;
+}
+#prev-audio{
+    display: flex;
+    gap: 2em;
 }
 
